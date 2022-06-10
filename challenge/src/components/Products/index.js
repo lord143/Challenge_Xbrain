@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import { Container} from "@mui/material";
 import Grid from '@mui/material/Grid';
 import { useSelector } from "react-redux";
@@ -11,7 +11,7 @@ export default function Products() {
     <Container sx={{ py: 8 }} maxWidth="md">
       <Grid container spacing={3}>
         {items.map((item, index) => (
-          <Grid item key={index} xs={12} sm={6} md={4}>
+          <Grid item key={index} xs={12} sm={4} md={4}>
             <Item item={item}/>
           </Grid>
         ))}
