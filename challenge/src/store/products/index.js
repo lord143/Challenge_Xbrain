@@ -12,7 +12,7 @@ export class ProductItem {
     items: [
       new ProductItem(
         1,
-        "Iphone X",
+        "teste 1",
         "This is a media card. You can use this section to describe the content.",
         "https://http2.mlstatic.com/D_NQ_NP_820109-MLA43711683024_102020-O.webp",
         2399.0
