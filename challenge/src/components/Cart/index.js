@@ -48,6 +48,7 @@ export default function Cart() {
           </button>
         </li>
       </ul>
+      
     </div>
   );
 }
